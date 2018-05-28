@@ -21,13 +21,15 @@ p {
   border-bottom-right-radius: 1rem;
   padding: 1rem;
   padding-top: 1.5rem;
+  width:85%;
+  margin: auto;
 }
 
 p:nth-child(4){
   background-color: #1E90FF;
   color:#FFFAFA;
   font-size:125%;
-  margin:0;
+  margin: auto;
   padding: 0 0 1rem 0;
 }
 
@@ -170,7 +172,7 @@ h3 {
 .row img {
   text-align: center;
   justify-content: space-around;
-  width:100%;
+  width:85%;
 }
 
 .row {
