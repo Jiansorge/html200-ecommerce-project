@@ -19,7 +19,7 @@ p {
   background-color: white;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  padding: 2rem;
+  padding: 1rem;
   padding-top: 1.5rem;
 }
 
@@ -40,6 +40,7 @@ img {
 /***************** NAV *****************/
 
 nav{
+  padding-top: 0.1rem;
   width:100%;
   background-color: #FFFAFA;
   text-align: center;
@@ -61,12 +62,8 @@ nav ul{
 }
 
 .cart-info{
-  justify-content: space-around;
   position: relative;
-  padding: 2vw 2vw .7vw 2vw;
-
-
-
+  justify-content: space-around;
 }
 
 
@@ -154,11 +151,11 @@ h2 {
 }
 
 h3 {
-  font-size: 4vw;
+  font-size: 1.5rem;
   text-align: center;
   color: #FFFAFA;
   font-family: 'Raleway', sans-serif;
-  padding-bottom: 1rem;
+  padding-bottom: rem;
 }
 
 .col-lg-3 .col-md-4 .col-sm-6 .col-xs-12 {
@@ -167,11 +164,15 @@ h3 {
   align-items: center;
   clear:both;
   justify-content:space-around;
+
 }
 
 .row img {
   text-align: center;
   justify-content: space-around;
   width:100%;
-  
+}
+
+.row {
+
 }
