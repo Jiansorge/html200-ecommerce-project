@@ -76,14 +76,18 @@ nav a:hover {
 }
 
 nav a{
-  font-size:5vw;
+  font-size:4vw;
   color:black;
+  align-self: center;
 }
 
 /**************** HERO *****************/
 
 header img {
   max-height: 20vw;
+  position: absolute;
+  margin-top: %;
+  margin-left: 3%;
 }
 
 h1 .logo-w {
@@ -94,10 +98,11 @@ h1 .logo-w {
 
 h1 {
   font-family: 'Tajawal', sans-serif;
-  font-size: 9vw;
+  font-size: 7vw;
   text-align: center;
   background-color: #FFFAFA;
-  padding: 2rem 2rem 0 2rem;
+  padding: 1rem 2rem 0 2rem;
+  margin-top: 7%;
 }
 
 /**************** ASIDE ****************/
@@ -132,12 +137,13 @@ aside {
 
 section {
   padding: 0 5vw;
-  
+
 }
 
 .item-container {
   display:flex;
-
+  justify-content: space-between;
+  text-align: center;
 
 }
 
