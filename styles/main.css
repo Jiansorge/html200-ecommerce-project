@@ -9,6 +9,25 @@ body {
   background-color:#1E90FF;
 }
 
+@media screen and (min-width:800px) {
+  main {
+    display:inline-flex;
+    flex-direction: row-reverse
+  }
+  aside{
+    width:14em;
+    margin: 0;
+    padding: 0;
+  }
+  input{
+    width:100%;
+  }
+  section {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 p {
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
@@ -21,8 +40,7 @@ p {
   border-bottom-right-radius: 1rem;
   padding: 1rem;
   padding-top: 1.5rem;
-  width:85%;
-  margin: auto;
+  width:100%;
 }
 
 p:nth-child(4){
@@ -37,6 +55,7 @@ p:nth-child(4){
 img {
   border-top-left-radius: 1rem;
   border-top-right-radius: 2rem;
+
 }
 
 /***************** NAV *****************/
@@ -136,8 +155,8 @@ aside {
 /*********** PRODUCTS SECTION ***********/
 
 section {
-  padding: 0 5vw;
-
+  padding: 0 1vw;
+  margin: 0 1rem;
 }
 
 .item-container {
@@ -173,7 +192,7 @@ h3 {
 .row img {
   text-align: center;
   justify-content: space-around;
-  width:85%;
+  width:100%;
 }
 
 .row {
