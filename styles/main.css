@@ -105,7 +105,7 @@ nav a{
 header img {
   max-height: 20vw;
   position: absolute;
-  margin-top: %;
+  margin-top: 1%;
   margin-left: 3%;
 }
 
@@ -177,7 +177,7 @@ h3 {
   text-align: center;
   color: #FFFAFA;
   font-family: 'Raleway', sans-serif;
-  padding-bottom: rem;
+  padding-bottom: 1rem;
 }
 
 .col-lg-3 .col-md-4 .col-sm-6 .col-xs-12 {
